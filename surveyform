@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form
+
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="container" >
+    <h1  class="mainHeading">Survey Form</h1>
+    <hr class="divder" />
+    <form  class="form-control">
+        
+        <label>Name :</label>
+        <input type="text" required />
+        <label >Email :</label>
+        <input type="text"/>
+        
+        <label >age :</label>
+        <input type="number"/>
+        <label >phone no</label>
+        <input type="number"/>
+        <label >Adress</label>
+        <textarea   rows ="3" cols="18" ></textarea>
+        <label >Country :</label>
+        <section>
+            <option >India</option>
+            <option  id ="usa">usa</option>
+            <option >Pakistan</option>
+        </select>
+        <label >Gender :</label>
+        <div class="options">
+        <input type="radio"/>
+        <label >female</label>
+        <input type="radio"/>
+        <label >male</label>
+        <input type="radio"/>
+        <label >other</label>
+        </div>
+        <hr/>
+        <h2 class="secHeading">Ratings</h2>
+        <label > Rate of our product</label>
+        <div class="options">
+            <input type="radio"/>
+        <label >good</label>
+        <input type="radio"/>
+        <label >avg</label>
+        <input type="radio"/>
+        <label >bad</label>
+        <input type="radio"/>
+        </div>
+        <br>
+        <label >submit</label>
+        <input type="submit">
+    </form>
+    </div>
+</body>
+</html> 
